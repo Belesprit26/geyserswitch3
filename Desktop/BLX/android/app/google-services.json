@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "101133921365",
+    "project_id": "blx-commerce",
+    "storage_bucket": "blx-commerce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101133921365:android:0b387cc8634eacc67e78dc",
+        "android_client_info": {
+          "package_name": "com.blx.blx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101133921365-b95m8r4bqavgad8hhmila29cr23onhtr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.blx.blx",
+            "certificate_hash": "cdde275c3de4360c1dd075cd4ff8a7ef5a662c65"
+          }
+        },
+        {
+          "client_id": "101133921365-qd93sqagoi9s1bksrhb1cbkm1m18tkes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLg0UweUAILvBwe-1Cmn0eqL1jzb_E_U8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101133921365-qd93sqagoi9s1bksrhb1cbkm1m18tkes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
