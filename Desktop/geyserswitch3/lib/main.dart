@@ -5,6 +5,7 @@ import 'package:geyserswitch3/pages/SignInPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:geyserswitch3/utils/user_preferences.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
