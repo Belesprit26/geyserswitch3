@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart' as firebase_auth;
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:gs_21/Service/Auth_Service.dart';
-import 'package:gs_21/pages/HomePage.dart';
+import 'package:gs_21/navpages/main_page.dart';
 import 'package:gs_21/pages/SignInPage.dart';
 
 class SignUpPage extends StatefulWidget {
@@ -113,7 +113,7 @@ class _SignUpPageState extends State<SignUpPage> {
             });
             Navigator.pushAndRemoveUntil(
                 context,
-                MaterialPageRoute(builder: (builder) => HomePage()),
+                MaterialPageRoute(builder: (builder) => MainPage()),
                 (route) => false);
           } on firebase_auth.FirebaseAuthException catch (e) {
             var message = '';

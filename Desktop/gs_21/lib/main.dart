@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:gs_21/Service/Auth_Service.dart';
-import 'package:gs_21/pages/HomePage.dart';
+import 'package:gs_21/navpages/main_page.dart';
 import 'package:gs_21/pages/SignInPage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -42,7 +42,7 @@ class _MyAppState extends State<MyApp> {
     String? token = await authClass.getToken();
     if (token != null) {
       setState(() {
-        currentPage = HomePage();
+        currentPage = MainPage();
       });
     }
   }
